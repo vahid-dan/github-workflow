@@ -24,4 +24,4 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Run a one-line script
-      run: echo ${GITHUB_REPOSITORY} && echo "Done!" && git log && ls -ll
+      run: echo ${GITHUB_REPOSITORY} > repo.txt && echo "Done!" && git log && ls -ll
