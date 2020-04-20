@@ -33,3 +33,5 @@ jobs:
         free -m
         lscpu
         sudo lshw -short
+        sudo wget -O https://github.com/mikefarah/yq/releases/download/3.2.1/yq_linux_amd64 /usr/bin/yq
+        yq --help
